@@ -8,4 +8,12 @@ function add() {
 
 function dark() {
     document.body.classList.toggle("dark");
+     const button = document.getElementById("2");
+
+    if (document.body.classList.contains("dark")) {
+        button.textContent = "Light";
+    } else {
+        button.textContent = "Dark";
+    }
 }
+const dfs=document.querySelector("h1");
