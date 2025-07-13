@@ -1,0 +1,48 @@
+:root {
+    --bg-color: lightyellow;
+    --text-color: teal;
+    --input-border: teal;
+    --button-bg: teal;
+    --result-cl:teal;
+}
+
+body.dark {
+    --bg-color: grey;
+    --text-color: black;
+    --input-border: black;
+    --button-bg: black;
+    --result-cl:black;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+h1 {
+    color: var(--text-color);
+}
+
+.num {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border: 2px solid var(--input-border);
+    border-radius: 5px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: var(--button-bg);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--result-cl);
+}
